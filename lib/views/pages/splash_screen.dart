@@ -1,4 +1,3 @@
-import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -15,9 +14,8 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 2), () { // Duración del splash screen
-      Navigator.pushReplacementNamed(context, '/main');
-    });
+    // Ya no necesitamos navegar manualmente
+    // El StreamBuilder en main.dart se encarga de la navegación automática
   }
 
   @override

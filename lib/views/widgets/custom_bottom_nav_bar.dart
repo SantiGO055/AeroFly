@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import '../pages/mis_vuelos.dart';
-import '../pages/home.dart';
 
 typedef OnTabCallback = void Function(int);
 
@@ -16,14 +14,6 @@ class CustomBottomNavBar extends StatelessWidget {
       onTap: (index) {
         if (onTap != null) {
           onTap!(index);
-          return;
-        }
-        if (index == 0 && currentIndex != 0) {
-          Navigator.pushReplacementNamed(context, MyHomePage.routeName);
-        } else if (index == 1 && currentIndex != 1) {
-          Navigator.pushReplacementNamed(context, MisVuelosPage.routeName);
-        } else if (index == 2 && currentIndex != 2) {
-          // Aquí podrías navegar a la pantalla de perfil si la creas
         }
       },
       items: const [

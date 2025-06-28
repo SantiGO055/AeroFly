@@ -1,3 +1,4 @@
+import 'package:aerofly/views/widgets/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class MisVuelosPage extends StatelessWidget {
@@ -7,9 +8,7 @@ class MisVuelosPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Mis Vuelos'),
-      ),
+      appBar: const CustomAppBar(),
       body: const Center(
         child: Text('Aquí se mostrarán tus vuelos.'),
       ),
