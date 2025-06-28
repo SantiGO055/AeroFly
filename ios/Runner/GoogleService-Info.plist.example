@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>533192187427-v1np4icvcarcip3u5vb2i7pt8jbqbp00.apps.googleusercontent.com</string>
+	<string>YOUR_CLIENT_ID</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.533192187427-v1np4icvcarcip3u5vb2i7pt8jbqbp00</string>
+	<string>com.googleusercontent.apps.YOUR_REVERSED_CLIENT_ID</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBS0UWf_Us_oCAjaq762umTN7InYq-sMHU</string>
+	<string>YOUR_API_KEY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>533192187427</string>
+	<string>YOUR_GCM_SENDER_ID</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.aerofly</string>
 	<key>PROJECT_ID</key>
-	<string>aerofly-ed8db</string>
+	<string>YOUR_PROJECT_ID</string>
 	<key>STORAGE_BUCKET</key>
-	<string>aerofly-ed8db.firebasestorage.app</string>
+	<string>YOUR_PROJECT_ID.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:533192187427:ios:fc0255d2a84f10f51c5b96</string>
+	<string>YOUR_GOOGLE_APP_ID</string>
 </dict>
-</plist>
+</plist> 

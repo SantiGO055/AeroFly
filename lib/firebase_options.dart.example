@@ -44,37 +44,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBS0UWf_Us_oCAjaq762umTN7InYq-sMHU',
-    appId: '1:533192187427:web:4bdfa10cb8943d691c5b96',
-    messagingSenderId: '533192187427',
-    projectId: 'aerofly-ed8db',
-    authDomain: 'aerofly-ed8db.firebaseapp.com',
-    storageBucket: 'aerofly-ed8db.firebasestorage.app',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBS0UWf_Us_oCAjaq762umTN7InYq-sMHU',
-    appId: '1:533192187427:android:4bdfa10cb8943d691c5b96',
-    messagingSenderId: '533192187427',
-    projectId: 'aerofly-ed8db',
-    storageBucket: 'aerofly-ed8db.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBS0UWf_Us_oCAjaq762umTN7InYq-sMHU',
-    appId: '1:533192187427:ios:fc0255d2a84f10f51c5b96',
-    messagingSenderId: '533192187427',
-    projectId: 'aerofly-ed8db',
-    storageBucket: 'aerofly-ed8db.firebasestorage.app',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
     iosBundleId: 'com.example.aerofly',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBS0UWf_Us_oCAjaq762umTN7InYq-sMHU',
-    appId: '1:533192187427:ios:fc0255d2a84f10f51c5b96',
-    messagingSenderId: '533192187427',
-    projectId: 'aerofly-ed8db',
-    storageBucket: 'aerofly-ed8db.firebasestorage.app',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
     iosBundleId: 'com.example.aerofly',
   );
 } 
